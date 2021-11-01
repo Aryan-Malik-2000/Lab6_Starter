@@ -101,6 +101,24 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+
+    this.shadowRoot.appendChild(card)
+    this.shadowRoot.appendChild(styleElem)
+
+    const recipeImage = document.createElement('img')
+    recipeImage.src = searchForKey(data, 'thumbnailUrl')
+    recipeImage.alt = searchForKey(data, 'name')
+    card.appendChild(recipeImage)
+
+    const title = document.createElement('p')
+    title.className = 'title';
+    card.appendChild(title);
+
+    const link2article = document.createElement('a')
+    link2article.href = getUrl(data);
+    
+
+
   }
 }
 
