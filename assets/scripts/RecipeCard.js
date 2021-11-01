@@ -102,8 +102,6 @@ class RecipeCard extends HTMLElement {
 
     // Part 1 Expose - TODO
 
-    this.shadowRoot.appendChild(card)
-    this.shadowRoot.appendChild(styleElem)
 
     const recipeImage = document.createElement('img')
     recipeImage.src = searchForKey(data, 'thumbnailUrl')
@@ -178,6 +176,8 @@ class RecipeCard extends HTMLElement {
     card.appendChild(ingredients)
 
 
+    this.shadowRoot.appendChild(card)
+    this.shadowRoot.appendChild(styleElem)
 
 
   }
