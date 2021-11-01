@@ -109,7 +109,7 @@ class RecipeCard extends HTMLElement {
     card.appendChild(recipeImage)
 
     const title = document.createElement('p')
-    title.className = 'title';
+  //  title.className = 'title';
     title.textContent = data.name;
     card.appendChild(title);
 
