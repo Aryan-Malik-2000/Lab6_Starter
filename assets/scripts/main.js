@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  '/assets/recipes/carrot-cake-cupcakes.json',
+  '/assets/recipes/classic-lemon-meringue-pie.json',
+  '/assets/recipes/perfect-roast-beef.json',
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -67,10 +70,15 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+  let numRecipesShown = 0;
   for (let item in recipeData) {
     let createdRecipe = document.createElement('recipe-card');
     createdRecipe.data = recipeData[item];
     document.querySelector('main').appendChild(createdRecipe);
+    numRecipesShown++;
+    if (numRecipesShown > 3) {
+      createdRecipe.style.display = 'none';
+    }
   }
 }
 
@@ -83,4 +91,26 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  let showMoreBtn = document.querySelectorAll('button')[0];
+  showMoreBtn.addEventListener('click', () => {
+    let createdRecipe = document.querySelectorAll('recipe-card');
+    let x = 0;
+    if (showMoreBtn.innerText == 'Show more') {
+      showMoreBtn.innerText = 'Show less';
+      for (let item in createdRecipe) {
+        if (x > 2) {
+          createdRecipe[item].style.display = 'block'
+        }
+        x++;
+      }
+    } else if (showMoreBtn.innerText == 'Show less') {
+      showMoreBtn.innerText = 'Show more';
+      for (let item in createdRecipe) {
+        if (x > 2) {
+          createdRecipe[item].style.display = 'none'
+        }
+        x++;
+      }
+    }
+  })
 }

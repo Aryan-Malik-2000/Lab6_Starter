@@ -1,0 +1,116 @@
+{
+  "@graph": [
+    {
+      "@type": "Question",
+      "text": "Do you like lemon desserts?",
+      "suggestedAnswer": [
+        { "@type": "Answer", "text": "Yes, of course!" },
+        { "@type": "Answer", "text": "No, only chocolate!" }
+      ]
+    }
+  ],
+  "@context": "http://schema.org",
+  "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a51904/lemon-meringue-pie-recipe/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Delish",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+      "width": 219,
+      "height": 60
+    }
+  },
+  "@type": "Recipe",
+  "author": { "name": "Lindsay Funston", "@type": "Person" },
+  "datePublished": "2017-03-17T17:01:00Z",
+  "headline": "Classic Lemon Meringue Pie",
+  "image": {
+    "@type": "ImageObject",
+    "height": 1267,
+    "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190305-lemon-meringue-pie-368-1554326088.jpg?crop=0.668xw:1.00xh;0.306xw,0&resize=100:*",
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190305-lemon-meringue-pie-368-1554326088.jpg",
+    "width": 1900
+  },
+  "mainEntityOfPage": {
+    "@id": "https://www.delish.com/cooking/recipe-ideas/recipes/a51904/lemon-meringue-pie-recipe/",
+    "@type": "WebPage"
+  },
+  "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190305-lemon-meringue-pie-368-1554326088.jpg?crop=0.668xw:1.00xh;0.306xw,0&resize=100:*",
+  "dateModified": "2021-03-24T20:26:00Z",
+  "isAccessibleForFree": "False",
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".content-container"
+    }
+  ],
+  "name": "Classic Lemon Meringue Pie",
+  "prepTime": "PT15M",
+  "cookTime": "PT0S",
+  "totalTime": "PT6H20M",
+  "recipeIngredient": [
+    "1 pie crust",
+    "1 1/2 c. granulated sugar, divided",
+    "1/3 c. cornstarch",
+    "2 tbsp. all-purpose flour",
+    "1/2 tsp. kosher salt",
+    "1 1/2 c. cold water",
+    "4 large eggs, separated",
+    "2 tbsp. butter",
+    "Juice and zest of 2 lemons",
+    "1/4 tsp. cream of tartar"
+  ],
+  "recipeInstructions": "Bake crust: Preheat oven to 375\u00b0. On a lightly floured surface, roll out dough into a 12\u201d circle. Drape over 9\u201d pie dish and gently press to fit (don\u2019t stretch). Prick bottom with a fork, trim edge to 1\u201d, and tuck overhang under itself, and crimp. Refrigerate 30 minutes or freeze 10 minutes. Line crust with parchment and fill with dried beans or pie weights. Bake 30 minutes, then remove parchment and weights. Return to oven and bake until crust is golden and completely baked through, 20 to 25 minutes more. Set on rack to let cool completely. Meanwhile, make filling: In a saucepan over medium heat, combine 1 1/4 cups sugar, cornstarch, flour, and salt. Gradually stir in cold water until smooth. Cook, stirring constantly, until mixture boils. Boil 1 minute, stirring constantly, then remove from heat. In a small bowl, beat egg yolks with a fork. Stir about 1/4 cup of sugar mixture into egg yolks. Gradually stir yolk mixture into remaining sugar mixture in the saucepan. Let cook, stirring constantly, until thick, about 1 minute. Remove from heat.  Stir in butter, lemon juice, and zest, then pour filling into cooled pie crust. Make meringue: Reduce oven to 350\u00b0. In a large bowl, beat egg whites and cream of tartar until soft peaks form. Add remaining 1/4 cup sugar by the tablespoon until stiff peaks form. Spoon meringue onto hot filling and spread to edge of crust. Bake until meringue is golden, 12 minutes. Cool completely, about 1 hour, then refrigerate until filling is set, 3 hours.",
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://streaming.hearstdigitalstudios.com/manual_upload/58d1a16ebbddbd57b687b0c0/mp4/Lemon_Merinque_Pie_FRONT_1490133376_4000_hd_v3.mp4",
+    "description": "And it's a show-stopper!",
+    "duration": "PT1M2S",
+    "embedUrl": "https://glimmer.hearstapps.com/?id=ddcd78f9-5dda-40ed-8eff-3c334fef49f5",
+    "name": "Once You Try Homemade Lemon Meringue Pie, You Never Go Back!",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/190305-lemon-meringue-pie-368-1554326088.jpg",
+    "uploadDate": "2017-03-21T21:55:58.471889Z"
+  },
+  "recipeCuisine": ["American", "Southern"],
+  "aggregateRating": {
+    "@context": "http://schema.org/",
+    "@type": "AggregateRating",
+    "ratingValue": 5,
+    "reviewCount": 1,
+    "worstRating": 1,
+    "bestRating": 5
+  },
+  "review": [
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2021-10-16",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "tammyoeo"
+      },
+      "reviewBody": "I just made this recipe for the 2nd time, but decided I would also try making one with reduced sugar. I used the Truvia cane sugar blend in place of regular sugar. It turned out great! Worked just like the real deal. The pie in front is the reduced sugar. 12 minutes in the oven and they are perfect!",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    }
+  ],
+  "recipeCategory": [
+    "nut-free",
+    "vegetarian",
+    "Easter",
+    "spring",
+    "baking",
+    "dessert"
+  ],
+  "recipeYield": "12 servings",
+  "description": "This Lemon Meringue Pie from Delish.com uses both lemon zest and juice to strike the perfect balance between sweet and tart, plus it has a showstopping meringue topping.",
+  "keywords": "Lemon Meringue Pie, best Lemon Meringue Pie, easy Lemon Meringue Pie, homemade Lemon Meringue Pie, how to make Lemon Meringue Pie, Lemon Meringue Pie recipe, Lemon Meringue Pie crust, classic pie, classic Lemon Meringue Pie, classic recipe, classic dessert, classic meringue, basic Lemon Meringue Pie, easy lemon dessert, lemon dessert, easter desserts"
+}

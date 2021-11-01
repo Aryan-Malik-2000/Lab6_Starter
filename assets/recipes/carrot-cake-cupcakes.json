@@ -1,0 +1,136 @@
+{
+  "@graph": [
+    {
+      "@type": "Question",
+      "text": "Do you add raisins to your carrot cake?",
+      "suggestedAnswer": [
+        { "@type": "Answer", "text": "Yes, yum!" },
+        { "@type": "Answer", "text": "No, gross!" }
+      ]
+    }
+  ],
+  "@context": "http://schema.org",
+  "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a43390/carrot-cake-cupcakes-recipe/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Delish",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+      "width": 219,
+      "height": 60
+    }
+  },
+  "@type": "Recipe",
+  "author": { "name": "Makinze Gore", "@type": "Person" },
+  "datePublished": "2015-08-20T13:56:00Z",
+  "headline": "Carrot Cake Cupcakes",
+  "image": {
+    "@type": "ImageObject",
+    "height": 667,
+    "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190314-carrot-cake-cupcakes-horizontal-1-1553117837.png?crop=0.668xw:1.00xh;0.103xw,0&resize=100:*",
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190314-carrot-cake-cupcakes-horizontal-1-1553117837.png",
+    "width": 1000
+  },
+  "mainEntityOfPage": {
+    "@id": "https://www.delish.com/cooking/recipe-ideas/recipes/a43390/carrot-cake-cupcakes-recipe/",
+    "@type": "WebPage"
+  },
+  "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190314-carrot-cake-cupcakes-horizontal-1-1553117837.png?crop=0.668xw:1.00xh;0.103xw,0&resize=100:*",
+  "dateModified": "2019-03-26T14:50:00Z",
+  "isAccessibleForFree": "False",
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".content-container"
+    }
+  ],
+  "name": "Carrot Cake Cupcakes",
+  "prepTime": "PT25M",
+  "cookTime": "PT0S",
+  "totalTime": "PT1H45M",
+  "recipeIngredient": [
+    "2 c. all-purpose flour",
+    "1 tsp. kosher salt",
+    "1 tsp. baking soda",
+    "1 tsp. cinnamon",
+    "1/4 tsp. grated nutmeg",
+    "1 c. (2 sticks) butter, softened",
+    "3/4 c. granulated sugar",
+    "1/4 c. packed brown sugar",
+    "2 large eggs",
+    "1 1/2 tsp. pure vanilla extract",
+    "1/2 c. milk",
+    "1 c. grated carrots (from about 2 medium)",
+    "3/4 c. toasted pecans, roughly chopped",
+    "1 (8-oz.) block cream cheese",
+    "1/2 c. (1 stick) butter, softened",
+    "4 c. powdered sugar",
+    "1 tsp. pure vanilla extract",
+    "1/2 tsp. cinnamon",
+    "1/4 tsp. kosher salt"
+  ],
+  "recipeInstructions": "Make cupcakes: Preheat oven to 350\u00b0 and line two muffin tins with liners. In a large bowl, whisk together flour, salt, baking soda, cinnamon, and nutmeg. In another large bowl using a hand mixer (or in the bowl of a stand mixer fitted with the paddle attachment), beat together butter and sugars until light and fluffy. Add eggs, one at a time, beating well after each addition, then add vanilla. Add dry ingredients and mix until just combined. Add milk and mix until combined, then fold in carrots and pecans. Fill liners \u00be full with batter and bake until a toothpick inserted in middle comes out clean, 20 minutes. Let cool. Meanwhile, make frosting: In a large bowl, beat cream cheese and butter until no lumps remain. Add powdered sugar and beat until smooth, then add vanilla, cinnamon, and salt. Transfer frosting to a piping bag fitted with a large round tip and frost cupcakes. Top with toasted pecans.",
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://streaming.hearstdigitalstudios.com/d3a0f183-f33e-43b1-b7db-0d7deb3119af/video_rover_16x9_1080p_hd_1520008597_76213.mp4",
+    "description": "No bunny left behind.",
+    "duration": "PT1M8S",
+    "embedUrl": "https://glimmer.hearstapps.com/?id=3b118c0f-478b-448e-83a5-aa221455a3a2",
+    "name": "This Is The Best Carrot Cake You Will Ever Make",
+    "thumbnailUrl": "https://hips.hearstapps.com/vidthumb/images/carrot-cake-horozontal-1520010595.jpg",
+    "uploadDate": "2018-03-02T15:57:11.645616Z"
+  },
+  "recipeCuisine": ["American"],
+  "aggregateRating": {
+    "@context": "http://schema.org/",
+    "@type": "AggregateRating",
+    "ratingValue": 4.5,
+    "reviewCount": 2,
+    "worstRating": 1,
+    "bestRating": 5
+  },
+  "review": [
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2021-02-04",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Huong373"
+      },
+      "reviewBody": "These were pretty delicious and easy to make. Did not take me too long! I would add more carrots to my batter next time. Also, I feel like the cupcakes are considered more like a muffin. its a bit drier than a cupcake. Personally, to me, a cupcake is light and airy. This recipe is a bit more dense. The flavor is on point because its not too sweet. To top it off, the cream cheese frosting is AMAZING! I will make it again for sure <3 My coworkers enjoyed it.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 4,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2019-04-22",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "CyanClover"
+      },
+      "reviewBody": "I would say I am a beginner with cooking and baking and this was an absolute success for me. I followed the recipe, only replacing pecans with walnuts because I ran out. I brought them to an Easter gathering and everyone loved them! I will definitely be making this again.\nMy only slight negative review is that this does take a long time to make and can get messy.  I didn\u2019t notice the total time stated 1 hr and 45 minutes before hand.\nStill worth it!",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    }
+  ],
+  "recipeCategory": ["birthday", "Easter", "baking", "dessert"],
+  "recipeYield": "18",
+  "description": "Carrot Cake Cupcakes from Delish.com are the perfect spring treat. ",
+  "keywords": "carrot cupcakes,homemade carrot cupcakes,carrot cupcake recipes, cream cheese frosting, best carrot cake cupcake recipe, easy carrot cake cupcake recipe"
+}
