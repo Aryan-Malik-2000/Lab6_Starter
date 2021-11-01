@@ -119,14 +119,14 @@ class RecipeCard extends HTMLElement {
     link2article.textContent = searchForKey(data, 'name')
     title.appendChild(link2article)
 
-    const rating = document.createElement('div')
+    let rating = document.createElement('div')
     rating.className = 'rating';
 
-    const span = document.createElement('span')
-    const review = searchForKey(data, 'ratingVal')
+    let span = document.createElement('span')
+    let review = searchForKey(data, 'ratingValue')
     if (review != undefined) {
       span.textContent = review
-      const ratingImg = document.createElement('img')
+      let ratingImg = document.createElement('img')
       if (review < 0.5) {
         ratingImg.src = "assets/images/icons/0-star.svg"
         ratingImg.alt = '0 stars'
@@ -151,8 +151,8 @@ class RecipeCard extends HTMLElement {
         ratingImg.src = "assets/images/icons/5-star.svg"
         ratingImg.alt = '5 stars'
       }
-      const anotherspan = document.createElement('span')
-      anotherspan.textContent = searchForKey(data, 'ratingCount')
+      let anotherspan = document.createElement('span')
+      anotherspan.textContent = "(" + searchForKey(data, 'ratingCount') + ")"
       rating.appendChild(span)
       rating.appendChild(ratingImg)
       rating.appendChild(anotherspan)
@@ -169,7 +169,7 @@ class RecipeCard extends HTMLElement {
     card.appendChild(organization)
 
     const cookingTime = document.createElement('time')
-    cookingTime.textContent = convertTime(searchForKey(data, 'cookTime'))
+    cookingTime.textContent = convertTime(searchForKey(data, 'totalTime'))
     card.appendChild(cookingTime)
 
     const ingredients = document.createElement('p')
