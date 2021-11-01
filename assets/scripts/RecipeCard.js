@@ -110,6 +110,7 @@ class RecipeCard extends HTMLElement {
 
     const title = document.createElement('p')
     title.className = 'title';
+    title.textContent = data.name;
     card.appendChild(title);
 
     const link2article = document.createElement('a')
