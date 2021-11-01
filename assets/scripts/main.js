@@ -98,7 +98,7 @@ function bindShowMore() {
     if (showMoreBtn.innerText == 'Show more') {
       showMoreBtn.innerText = 'Show less';
       for (let item in createdRecipe) {
-        if (x > 2) {
+        if (x > 2 && createdRecipe[item].style != undefined) {
           createdRecipe[item].style.display = 'block'
         }
         x++;
@@ -106,7 +106,7 @@ function bindShowMore() {
     } else if (showMoreBtn.innerText == 'Show less') {
       showMoreBtn.innerText = 'Show more';
       for (let item in createdRecipe) {
-        if (x > 2) {
+        if (x > 2 && createdRecipe[item].style != undefined) {
           createdRecipe[item].style.display = 'none'
         }
         x++;
