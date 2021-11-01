@@ -108,15 +108,14 @@ class RecipeCard extends HTMLElement {
     recipeImage.alt = searchForKey(data, 'name')
     card.appendChild(recipeImage)
 
-    const title = document.createElement('p')
-  //  title.className = 'title';
-    title.textContent = data.name;
-    card.appendChild(title);
+    const titles = document.createElement('p')
+    titles.className = 'title'
+    card.appendChild(titles);
 
     const link2article = document.createElement('a')
     link2article.href = getUrl(data);
-    link2article.textContent = searchForKey(data, 'name')
-    title.appendChild(link2article)
+    link2article.textContent = searchForKey(data, 'headline')
+    titles.appendChild(link2article)
 
     let rating = document.createElement('div')
     rating.className = 'rating';
