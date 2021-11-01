@@ -116,7 +116,68 @@ class RecipeCard extends HTMLElement {
 
     const link2article = document.createElement('a')
     link2article.href = getUrl(data);
-    
+    link2article.textContent = searchForKey(data, 'name')
+    title.appendChild(link2article)
+
+    const rating = document.createElement('div')
+    rating.className = 'rating';
+
+    const span = document.createElement('span')
+    const review = searchForKey(data, 'ratingVal')
+    if (review != undefined) {
+      span.textContent = review
+      const ratingImg = document.createElement('img')
+      if (review < 0.5) {
+        ratingImg.src = "assets/images/icons/0-star.svg"
+        ratingImg.alt = '0 stars'
+      }
+      else if (review < 1.5) { 
+        ratingImg.src = "assets/images/icons/1-star.svg"
+        ratingImg.alt = '1 stars'
+      }
+      else if (review < 2.5) {
+        ratingImg.src = "assets/images/icons/2-star.svg"
+        ratingImg.alt = '2 stars'
+      }
+      else if (review < 3.5) {
+        ratingImg.src = "assets/images/icons/3-star.svg"
+        ratingImg.alt = '3 stars'
+      }
+      else if (review < 4.5) {
+        ratingImg.src = "assets/images/icons/4-star.svg"
+        ratingImg.alt = '4 stars'
+      }
+      else {
+        ratingImg.src = "assets/images/icons/5-star.svg"
+        ratingImg.alt = '5 stars'
+      }
+      const anotherspan = document.createElement('span')
+      anotherspan.textContent = searchForKey(data, 'ratingCount')
+      rating.appendChild(span)
+      rating.appendChild(ratingImg)
+      rating.appendChild(anotherspan)
+    }
+    else {
+      span.textContent = "No Review"
+      rating.appendChild(span)
+    }
+    card.appendChild(rating)
+
+    const organization = document.createElement('p')
+    organization.className = 'organization';
+    organization.textContent = getOrganization(data);
+    card.appendChild(organization)
+
+    const cookingTime = document.createElement('time')
+    cookingTime.textContent = convertTime(searchForKey(data, 'cookTime'))
+    card.appendChild(cookingTime)
+
+    const ingredients = document.createElement('p')
+    ingredients.className = 'ingredients'
+    ingredients.textContent = createIngredientList(searchForKey(data, 'recipeIngredient'))
+    card.appendChild(ingredients)
+
+
 
 
   }
